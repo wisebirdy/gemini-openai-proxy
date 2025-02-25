@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "wisebirdy-gemini-open-67"
-          entrypoint: "npm run start:node"
+          entrypoint: "@npm:start:node"
           root: "."
           
           
