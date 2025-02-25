@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "wisebirdy-gemini-open-67"
-          entrypoint: "jsr:@deno/nextjs-start"
+          entrypoint: "npm run start:node"
           root: "."
           
           
